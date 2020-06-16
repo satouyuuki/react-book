@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Todo</title>
+</head>
+<body>
+  <h3>My Todo</h3>
+  <form action="/todos/add" method="post">
+    <input name="text" placeholder="Input here...">
+    <button type="submit">ADD</button>
+  </form>
+  <h5>Todo List</h5>
+  <ul>
+    <% todos.forEach(function(todo) { %>
+      <li>
+        <form action="/todos/delete/<%= todo.id %>" method="post">
+          <%= todo.text %>
+          <button type="submit">DEL</button>
+        </form>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>
