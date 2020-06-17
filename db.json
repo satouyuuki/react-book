@@ -1,0 +1,29 @@
+{
+  "sites": [
+    {
+      "name": "siteold",
+      "url": "siteold.com",
+      "id": 1
+    },
+    {
+      "name": "site2",
+      "url": "site2.com",
+      "id": 2
+    },
+    {
+      "name": "rfijfj3",
+      "url": "jodjefje",
+      "id": 3
+    },
+    {
+      "name": "site",
+      "url": "site.com",
+      "id": 4
+    },
+    {
+      "name": "site",
+      "url": "site.com",
+      "id": 5
+    }
+  ]
+}
