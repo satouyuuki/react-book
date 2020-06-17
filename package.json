@@ -1,0 +1,13 @@
+{
+  "name": "react-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myscript.js",
+  "dependencies": {},
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  },
+  "scripts": {
+    "json:watch": "json-server --watch db.json"
+  }
+}

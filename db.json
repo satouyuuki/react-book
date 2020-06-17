@@ -1,0 +1,14 @@
+{
+  "sites": [
+    {
+      "name": "test0",
+      "url": "http://test0.com",
+      "id": 0
+    },
+    {
+      "name": "test",
+      "url": "test1.com",
+      "id": 1
+    }
+  ]
+}
